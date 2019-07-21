@@ -1,0 +1,10 @@
+---
+# defaults file for tomcat_aws
+region: ap-south-1
+instance_type: t2.micro
+ami: ami-0a74bfeb190bd404f  # Redhat
+keypair: mumbai # pem file name
+aws_access_key: sagadg #aws_access_key
+aws_secret_key: sga #aws_secret_key
+group: launch-wizard-33
+vpc_subnet_id: subnet-6fc59a07
